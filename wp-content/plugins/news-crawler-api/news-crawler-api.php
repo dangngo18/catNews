@@ -31,7 +31,7 @@ function nc_display_latest_news()
 
     foreach ($news as $item) {
         $html .= '<li style="margin-bottom: 15px; padding: 10px; border-bottom: 1px solid #eee;">';
-        $html .= '<h5 style="margin: 0 0 5px 0;"><a href="' . esc_url($item['url']) . '" target="_blank" rel="noopener">' . esc_html($item['title']) . '</a></h5>';
+        $html .= '<h5 style="margin: 0 0 5px 0;"><a href="' . esc_url($item['link']) . '" target="_blank" rel="noopener">' . esc_html($item['title']) . '</a></h5>';
         $html .= '<p class="entry-summary">' . wp_trim_words(wp_strip_all_tags($item['description']), 25, '...') . '</p>';
         $html .= '<p class="entry-meta"><time datetime="' . esc_attr($item['pubDate']) . '">' . esc_html($item['pubDate']) . '</time></p>';
         $html .= '</li>';
