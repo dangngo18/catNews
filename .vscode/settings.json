@@ -1,0 +1,15 @@
+{
+  "intelephense.stubs": [
+    "wordpress",
+    "php",
+    "json",
+    "curl",
+    "date",
+    "filter",
+    "libxml",
+    "openssl",
+    "pcre",
+    "spl",
+    "standard",
+  ]
+}
