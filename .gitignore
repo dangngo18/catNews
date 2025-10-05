@@ -16,7 +16,6 @@
 /readme.html
 /wp-*.php
 /xmlrpc.php
-/vscode/sftp.json
 
 # Configuration
 wp-config.php
